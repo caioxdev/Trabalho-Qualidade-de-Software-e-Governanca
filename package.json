@@ -1,0 +1,10 @@
+{
+  "name": "TrabalhoQualidadeDeSoftwareEGovernaca",
+  "version": "1.0.0",
+  "type": "module",
+  "lockfileVersion": 3,
+  "requires": true,
+  "devDependencies": {
+    "@eslint/js": "^9.38.0"
+  }
+}
