@@ -49,7 +49,7 @@ function deleteTodo(e) {
     todo.classList.add("completed");
     removeLocalTodos(todo);
     
-    todo.addEventListener("transitionend", (e) => {
+    todo.addEventListener("transitionend", () => {
       todo.remove();
     });
   }
