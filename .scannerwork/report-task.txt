@@ -1,0 +1,7 @@
+organization=caioxdev
+projectKey=Trabalho-Qualidade-de-Software-e-Governanca
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.69146
+dashboardUrl=https://sonarcloud.io/dashboard?id=Trabalho-Qualidade-de-Software-e-Governanca
+ceTaskId=AZoT5Nak2DuhHQpATVEW
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZoT5Nak2DuhHQpATVEW
