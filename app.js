@@ -35,7 +35,7 @@ function addTodo(e) {
   trashButton.classList.add("trash-btn");
   todoDiv.appendChild(trashButton);
   
-  // Final Todo
+  // Final TodoList
   todoList.appendChild(todoDiv);
 }
 
@@ -45,8 +45,7 @@ function deleteTodo(e) {
   if (item.classList[0] === "trash-btn") {
     const todo = item.parentElement;
     
-    todo.classList.add("fall");
-    todo.classList.add("completed");
+    todo.classList.add("fall", "completed");
     removeLocalTodos(todo);
     
     todo.addEventListener("transitionend", () => {
@@ -92,13 +91,13 @@ function removeLocalTodos(todo) {
 function getTodos() {
   let todos;
   
-  if (localStorage.getItem("todos") === null) {
+  if (localStorage.getItem("todos") === null) {S
     todos = [];
   } else {
     todos = JSON.parse(localStorage.getItem("todos"));
   }
   
-  todos.forEach(function (todo) {
+  for (const todo of todos) {
     // Create todo div
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");
@@ -124,5 +123,5 @@ function getTodos() {
     
     // Final Todo
     todoList.appendChild(todoDiv);
-  });
+  }
 }
