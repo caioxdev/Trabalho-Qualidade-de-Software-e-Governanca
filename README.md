@@ -21,7 +21,7 @@ Aplicação web simples de lista de tarefas (To-Do List) feita com HTML, CSS e J
 
 ## Relatório
 O relatório completo da análise e refatoração está disponível em PDF:  
-[Download do PDF](https://github.com/user-attachments/files/23138493/TrabalhoQualidadeDeSoftwareEGovernança.pdf)
+[Download do PDF](https://github.com/caioxdev/Trabalho-Qualidade-de-Software-e-Governanca/releases/download/v1.0/TrabalhoQualidadeDeSoftwareEGovernanca.pdf)
 
 ---
 
