@@ -28,3 +28,9 @@ O relatório completo da análise e refatoração está disponível em PDF:
 ## Código Refatorado
 O código refatorado pode ser acessado aqui:  
 [Repositório Refatorado](https://github.com/caioxdev/Trabalho-Qualidade-de-Software-e-Governanca)
+
+---
+
+## Slides resumo
+Os slides pode ser acessado aqui:  
+[Slides](https://www.canva.com/design/DAG22jNqUE4/K2e4Ac6mciamtLL-njyrqg/view?utm_content=DAG22jNqUE4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha73fdfe1e2)
